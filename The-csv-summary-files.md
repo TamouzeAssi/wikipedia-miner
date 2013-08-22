@@ -53,7 +53,7 @@ map = "m{" [*(record "," record)] "}"
 Each file simply contains key/value pairs, one per line. The table below lists all of the different files, and the key and value record types.
 
 |file | key | value | purpose
-|:----|:---:|:-----:|:-------
+|:----|:----|:------|:-------
 |articleParents.csv | int | [DbIntList](../../doc/org/wikipedia/miner/db/struct/DbIntList.html) | associates article id with ids of categories it belongs to
 |categoryParents.csv | int | [DbIntList](../../doc/org/wikipedia/miner/db/struct/DbIntList.html) | associates category id with ids of categories it belongs to
 |childArticles.csv | int | [DbIntList](../../doc/org/wikipedia/miner/db/struct/DbIntList.html) | associates category id with ids of articles that belong to it
