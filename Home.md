@@ -6,14 +6,12 @@ It makes it easy to integrate Wikipedia's knowledge into your own applications, 
 * measuring how terms and concepts in Wikipedia are connected to each other.
 * detecting and disambiguating Wikipedia topics when they are mentioned in documents.
 
-[[About Wikipedia Miner]]
-
-[[Downloads]]
-
-[[Installation and configuration]]
-
-[[Using the web services]]
-
-[[Using the Java API]]
+| Contents |
+|:---------|
+|[[About Wikipedia Miner]]|
+|[[Downloads]]|
+|[[Installation and configuration]]|
+|[[Using the web services]]|
+|[[Using the Java API]]|
 
 
