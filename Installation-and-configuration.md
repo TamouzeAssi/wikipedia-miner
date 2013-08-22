@@ -2,7 +2,7 @@ Installing Wikipedia Miner involves downloading, preprocessing and hosting Wikip
 
 Otherwise, read on...
 
-#Obtaining and installing Wikipedia Miner
+###Obtaining and installing Wikipedia Miner
 
 * [[Obtaining wikipedia data]]: Where to get the toolkit, and the data it depends on.
 
@@ -11,7 +11,7 @@ Otherwise, read on...
 * [[Deploying the Web Services]]: How to host the demos and services yourself.
 
 
-#Miscellaneous configuration stuff
+###Miscellaneous configuration stuff
 
 * [[Language dependent configuration]]: How to work with different language editions of Wikipedia.
 
