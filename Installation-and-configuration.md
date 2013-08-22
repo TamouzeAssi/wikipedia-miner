@@ -1,4 +1,4 @@
-Installing Wikipedia Miner involves downloading, preprocessing and hosting Wikipedia; many Gbs of data depending on the edition and language version you are interested in. Before you go to all that effort, we strongly recommend you check out the [services hosted by us|../../services] to see if these give you what you need. If your needs are short-term and not too arduous, then you are welcome to just use these. 
+Installing Wikipedia Miner involves downloading, preprocessing and hosting Wikipedia; many Gbs of data depending on the edition and language version you are interested in. Before you go to all that effort, we strongly recommend you check out the [services hosted by us](../../services) to see if these give you what you need. If your needs are short-term and not too arduous, then you are welcome to just use these. 
 
 Otherwise, read on...
 
