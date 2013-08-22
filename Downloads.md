@@ -28,7 +28,7 @@ Releases can be obtained in a similar way, eg:
 
 The toolkit requires both the original XML dumps of Wikipedia, and extracted CSV Summaries. Both need to be from the same edition (same language and release date). 
 
-If you can't find the edition you want in the table below, you can download the xml dumps directly from the Media Wiki foundation and extract the CSV summaries yourself. Check [here|Obtaining wikipedia data] for details. 
+If you can't find the edition you want in the table below, you can download the xml dumps directly from the Media Wiki foundation and extract the CSV summaries yourself. Check [[here|Obtaining wikipedia data]] for details. 
 
 | Language | Edition | CSV Summaries  | XML Dump
 |:---------|:--------|:---------------|:-----------
