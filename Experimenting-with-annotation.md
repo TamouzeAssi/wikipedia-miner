@@ -204,6 +204,7 @@ The next step produces [ARFF Files](http://weka.wikispaces.com/ARFF+%28stable+ve
 		
         _disambiguator.train(trainingSet, SnippetLength.full, datasetName + "_disambiguation", null) ;
         _disambiguator.saveTrainingData(_arffDisambig) ;
+        _disambiguator.buildDefaultClassifier();
 		
         _linkDetector.train(trainingSet, SnippetLength.full, datasetName + "_detection", _topicDetector, null) ;
         _linkDetector.saveTrainingData(_arffDetect) ;
