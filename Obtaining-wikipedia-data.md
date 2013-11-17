@@ -88,7 +88,7 @@ If you have read the Hadoop documentation, you will know how to monitor progress
 
 Finally, download the directory output/final from HDFS
 ```
-hadoop fs -get output/final
+hadoop fs -get output/final .
 ```
 
 These are the CSV files that will allow you to [[install the java api|Installing the java api]]
