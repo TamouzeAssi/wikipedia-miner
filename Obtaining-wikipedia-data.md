@@ -2,7 +2,7 @@ If you can't find a suitable set of csv files [[here|Downloads]], then will have
 
 The instructions assume you have already obtained an [XML dump from Wikipedia](http://en.wikipedia.org/wiki/Wikipedia:Database_download).
 
-**Note:** we recommend you try out this process on one of the smaller Wikipedia dumps (for example the [Simple English Wikipedia](http://dumps.wikimedia.org/simplewiki/latest/simplewiki-latest-pages-articles.xml.bz2)) before you move up to the larger ones.
+> **Note:** we recommend you try out this process on one of the smaller Wikipedia dumps (for example the [Simple English Wikipedia](http://dumps.wikimedia.org/simplewiki/latest/simplewiki-latest-pages-articles.xml.bz2)) before you move up to the larger ones.
 
 
 ##Install Hadoop
@@ -31,7 +31,7 @@ hadoop fs -put dump.xml input
 
 ##Compile Wikipedia Miner JAR file
 
-Go to the `ant` directory of the toolkit, and use the ant target ''package-hadoop'' to compile a JAR file from the Wikipedia Miner project that includes all dependencies required by hadoop.
+Go to the `ant` directory of the toolkit, and use the ant target `package-hadoop` to compile a JAR file from the Wikipedia Miner project that includes all dependencies required by hadoop.
 
 ```bash
 ant package-hadoop
