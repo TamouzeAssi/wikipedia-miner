@@ -67,7 +67,22 @@ hadoop jar wikipedia-miner-hadoop.jar org.wikipedia.miner.extraction.DumpExtract
 
 ...where *DUMP_FILE*, *LANG_FILE* and *SENTENCE_MODEL* are the names of the files you uploaded earlier, and *LANGUAGE_CODE* is the short code that identifies the language version of the Wikipedia dump (e.g. *en*, *de*, *fr*).
 
-This is going to take a while. As a rough guide, a cluster of 30 machines can process the latest en dumps (27G) in about 2.5 hours. You can expect the time to scale linearly with the number of machines you use and the size of Wikipedia. If you have read the Hadoop documentation, you will know how to monitor progress via the cool web services it provides.
+This is going to take a while. As a rough guide, a cluster of 30 machines can process 27G English Wikipedia dump in about 2.5 hours. You can expect the time to scale (roughly) linearly with the number of machines you use and the size of the dump. 
+
+There are 8 steps (separate Hadoop jobs) that will be performed in sequence: 
+
+* page step
+* redirect step
+* labelSense step
+* pageLabel step
+* labelOccurrence step
+* pageLink step
+* categoryParent step
+* articleParent step
+
+If the extraction process is interrupted for any reason, you can restart it and it will progress directly to the start of the step it reached previously. 
+
+If you have read the Hadoop documentation, you will know how to monitor progress via the cool web services it provides. Otherwise you can monitor progress via the command-line. 
 
 ##Download summaries
 
@@ -75,3 +90,5 @@ Finally, download the directory output/final from HDFS
 ```
 hadoop fs -get output/final
 ```
+
+These are the CSV files that will allow you to [[install the java api|Installing the java api]]
