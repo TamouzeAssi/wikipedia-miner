@@ -1,12 +1,18 @@
 If you can't find a suitable set of csv files [[here|Downloads]], then will have to extract them yourself. This page explains how.
 
-The instructions assume you have already obtained an [[XML dump from Wikipedia|Obtaining wikipedia data]].
+The instructions assume you have already obtained an [XML dump from Wikipedia](http://en.wikipedia.org/wiki/Wikipedia:Database_download).
+
+**Note:** we recommend you try out this process on one of the smaller Wikipedia dumps (for example the [Simple English Wikipedia](http://dumps.wikimedia.org/simplewiki/latest/simplewiki-latest-pages-articles.xml.bz2)) before you move up to the larger ones.
+
 
 ##Install Hadoop
 
 Download and install [Hadoop](http://hadoop.apache.org). Follow the [single node guide](http://hadoop.apache.org/common/docs/current/single_node_setup.html) to get it running on a 'pseudo cluster' of one computer.
 
 The extraction process requires Hadoop to be running on at least a small cluster of computers, so follow the [cluster setup guide](http://hadoop.apache.org/common/docs/current/cluster_setup.html) to make that happen. It's not as bad as it sounds, just a matter of putting files in a common or shared location on the computers and configuring some xml files.
+
+For larger dumps, each Task node will need to have 2-3Gb memory available to it. So, ensure that the machines in your Hadoop cluster are up to snuff, and configure `mapred.child.ulimit` and `mapred.child.java.opts` appropriately.
+
 
 ##Organize and upload data to HDFS
 
