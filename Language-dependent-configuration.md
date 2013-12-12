@@ -116,3 +116,26 @@ Below are examples of Language elements for processing different versions of Wik
 		
 </Language>
 ```
+
+###Spanish Wikipedia
+
+```
+<Language code="es" name="Spanish" localName="Español">
+
+		<RootCategory>Artículos</RootCategory>
+
+		<DisambiguationCategory>Wikipedia:Desambiguación</DisambiguationCategory>
+
+		<DisambiguationTemplate>desambiguación</DisambiguationTemplate>
+		<DisambiguationTemplate>des</DisambiguationTemplate>
+		<DisambiguationTemplate>desambiguacion</DisambiguationTemplate>
+		<DisambiguationTemplate>disambig</DisambiguationTemplate>
+		<DisambiguationTemplate>desambig</DisambiguationTemplate>
+		<RedirectIdentifier>REDIRECT</RedirectIdentifier>
+		<RedirectIdentifier>des</RedirectIdentifier>
+		<RedirectIdentifier>otros usos</RedirectIdentifier>
+		<RedirectIdentifier>redirige aquí</RedirectIdentifier>
+		<RedirectIdentifier>ico-des</RedirectIdentifier>
+		
+</Language>
+```
