@@ -48,6 +48,14 @@ then you should use the following redirect identifier
 
 There may be multiple redirect identifiers per language.
 
+###NamespaceAlias
+
+Describes alternative names for namespaces. For example, if the `File` namespace can also be called `Image`, then you should add the following alias:
+
+```xml
+<NamespaceAlias from='Image' to='File' />
+``` 
+
 
 ##Current languages
 
@@ -76,7 +84,13 @@ Below are examples of Language elements for processing different versions of Wik
     <DisambiguationTemplate>SIA</DisambiguationTemplate>
                
     <RedirectIdentifier>REDIRECT</RedirectIdentifier>
-               
+     
+    <NamespaceAlias from='WP' to='Wikipedia' />
+    <NamespaceAlias from='WT' to='Wikipedia talk' />
+    <NamespaceAlias from='Image' to='File' />
+    <NamespaceAlias from='Image talk' to='File talk' />
+    <NamespaceAlias from='Project' to='Wikipedia' />
+    <NamespaceAlias from='Project talk' to='Wikipedia talk' />
 </Language>
 ```
 
@@ -96,7 +110,14 @@ Below are examples of Language elements for processing different versions of Wik
     <DisambiguationTemplate>hndis</DisambiguationTemplate>
                
     <RedirectIdentifier>REDIRECT</RedirectIdentifier>
-               
+      
+    <NamespaceAlias from='WP' to='Wikipedia' />
+    <NamespaceAlias from='WT' to='Wikipedia talk' />
+    <NamespaceAlias from='Image' to='File' />
+    <NamespaceAlias from='Image talk' to='File talk' />
+    <NamespaceAlias from='Project' to='Wikipedia' />
+    <NamespaceAlias from='Project talk' to='Wikipedia talk' />
+         
 </Language>
 ```
 
