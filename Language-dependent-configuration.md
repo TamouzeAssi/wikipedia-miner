@@ -54,7 +54,7 @@ Describes alternative names for namespaces. For example, if the `File` namespace
 
 ```xml
 <NamespaceAlias from='Image' to='File' />
-``` 
+```
 
 
 ##Current languages
