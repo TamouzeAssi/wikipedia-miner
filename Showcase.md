@@ -1,0 +1,2 @@
+52001] [oracle.core.ojdl.FileLogWriter] [org: Oracle] [host: slcai795] [nwaddr: 10.240.208.180] [tid: [ACTIVE].ExecuteThread: '3' for queue: 'weblogic.kernel.Default (self-tuning)'] [userId: app15063] deleting log file: PlanningServer_1-diagnostic-392.log, size: 10470949 bytes
+[2014-11-26T16:08:51.657-08:00] [PlanningServer_1] [TRACE] [] [oracle.apps.appslogger] [tid: 18] [userId: SCMOPERATIONS] [ecid: 
