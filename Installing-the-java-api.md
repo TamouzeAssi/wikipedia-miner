@@ -80,4 +80,4 @@ If everything is working well, you should be able to run this and print out a pi
 Check out [[Using the Java API]] for more ideas, and the [[JavaDoc|]] for the gritty details.
 
 Java API is very much useful
-[Java Training in Chennai](hhttp://wisentechnologies.com/it-courses/java-training.aspx)
+[Java Training in Chennai](http://wisentechnologies.com/it-courses/java-training.aspx)
